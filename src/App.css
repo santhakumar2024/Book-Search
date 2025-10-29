@@ -1,0 +1,8 @@
+/* App.css - Additional styling for the App component */
+.book-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.book-card:hover {
+  transform: translateY(-4px);
+}
